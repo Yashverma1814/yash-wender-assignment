@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* login */
+
+
+.num{
+  margin: 1em;
+}
+.otp{
+  margin: 1em;
+}
+.sendBtn{
+  margin: 1em;
+}
+submitBtn{
+  margin: 1em;
+}
+
+

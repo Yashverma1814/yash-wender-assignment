@@ -1,0 +1,120 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products":[{
+    "id": 1,
+    "product name": "Pasta - Shells, Medium, Dry",
+    "price": "£3.96",
+    "image": "http://dummyimage.com/232x100.png/dddddd/000000"
+  }, {
+    "id": 2,
+    "product name": "Bread - Crumbs, Bulk",
+    "price": "£0.65",
+    "image": "http://dummyimage.com/208x100.png/dddddd/000000"
+  }, {
+    "id": 3,
+    "product name": "Pasta - Bauletti, Chicken White",
+    "price": "£7.17",
+    "image": "http://dummyimage.com/236x100.png/ff4444/ffffff"
+  }, {
+    "id": 4,
+    "product name": "Pop Shoppe Cream Soda",
+    "price": "£5.72",
+    "image": "http://dummyimage.com/216x100.png/cc0000/ffffff"
+  }, {
+    "id": 5,
+    "product name": "Apricots - Halves",
+    "price": "£10.57",
+    "image": "http://dummyimage.com/134x100.png/ff4444/ffffff"
+  }, {
+    "id": 6,
+    "product name": "Bread - English Muffin",
+    "price": "£9.44",
+    "image": "http://dummyimage.com/180x100.png/dddddd/000000"
+  }, {
+    "id": 7,
+    "product name": "Ice Cream - Chocolate",
+    "price": "£7.01",
+    "image": "http://dummyimage.com/209x100.png/dddddd/000000"
+  }, {
+    "id": 8,
+    "product name": "Chinese Foods - Chicken",
+    "price": "£10.69",
+    "image": "http://dummyimage.com/124x100.png/ff4444/ffffff"
+  }, {
+    "id": 9,
+    "product name": "Pasta - Fusili Tri - Coloured",
+    "price": "£9.84",
+    "image": "http://dummyimage.com/125x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 10,
+    "product name": "Bread - Raisin Walnut Oval",
+    "price": "£0.55",
+    "image": "http://dummyimage.com/140x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 11,
+    "product name": "Cheese - Provolone",
+    "price": "£1.00",
+    "image": "http://dummyimage.com/235x100.png/ff4444/ffffff"
+  }, {
+    "id": 12,
+    "product name": "Cheese - Blue",
+    "price": "£15.21",
+    "image": "http://dummyimage.com/158x100.png/ff4444/ffffff"
+  }, {
+    "id": 13,
+    "product name": "Wine - Sake",
+    "price": "£2.58",
+    "image": "http://dummyimage.com/216x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 14,
+    "product name": "Bacardi Breezer - Strawberry",
+    "price": "£17.72",
+    "image": "http://dummyimage.com/162x100.png/dddddd/000000"
+  }, {
+    "id": 15,
+    "product name": "Bread - Pita, Mini",
+    "price": "£14.77",
+    "image": "http://dummyimage.com/172x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 16,
+    "product name": "Waffle Stix",
+    "price": "£19.48",
+    "image": "http://dummyimage.com/233x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 17,
+    "product name": "Stock - Fish",
+    "price": "£2.25",
+    "image": "http://dummyimage.com/215x100.png/5fa2dd/ffffff"
+  }, {
+    "id": 18,
+    "product name": "Mustard - Dry, Powder",
+    "price": "£3.80",
+    "image": "http://dummyimage.com/200x100.png/dddddd/000000"
+  }, {
+    "id": 19,
+    "product name": "Duck - Breast",
+    "price": "£4.02",
+    "image": "http://dummyimage.com/245x100.png/ff4444/ffffff"
+  }, {
+    "id": 20,
+    "product name": "Sprouts - Brussel",
+    "price": "£13.84",
+    "image": "http://dummyimage.com/183x100.png/5fa2dd/ffffff"
+  }]
+}
