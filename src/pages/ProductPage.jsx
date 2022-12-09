@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { ProductCard } from '../components/productCard/ProductCard'
 
-export const ProductPage = () => {
+export const ProductPage = ({func}) => {
   const [products,setProducts] = useState([]);
 
   const fetchData = () =>{
@@ -24,11 +24,23 @@ export const ProductPage = () => {
     fetchData();
   },[])
 
+  const logOut=()=>{
+    func('login');
+  }
+
+  const addProduct = () =>{
+    func('addProduct')
+  }
 
 
   return (
     <div>
         <div>
+          <div><marquee behavior="" direction="">run json server to see products</marquee></div>
+          <div style={{display:'flex',justifyContent:'space-between'}}>
+            <div><button onClick={logOut}>Logout</button></div>
+            <div><button onClick={addProduct}>Add Product</button></div>
+          </div>
           <div>
             <h1 style={{textAlign:'center'}}>Products</h1>
           </div>
