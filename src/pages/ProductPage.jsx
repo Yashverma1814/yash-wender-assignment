@@ -1,16 +1,23 @@
-import React, { useEffect } from 'react'
-import { ProductCard } from '../components/productCard/ProductCArd'
+import React, { useEffect, useState } from 'react'
+import { ProductCard } from '../components/productCard/ProductCard'
 
 export const ProductPage = () => {
-  
+  const [products,setProducts] = useState([]);
 
   const fetchData = () =>{
-    fetch(`http://localhost:3000/posts`)
-      .then((response) => response.json())
-      .then((actualData) => console.log(actualData))
-      .catch((err) => {
-        console.log(err.message);
-      });
+    fetch(`http://localhost:8080/products`)
+          .then((response) => response.json())
+          .then((data) => setProducts(data));
+  }
+  const deleteItem =(id)=>{
+    fetch('http://localhost:8080/products/' + id, {
+      method: 'DELETE',
+    })
+    .then(res => res.json()) 
+    .then(res => console.log(res));
+
+
+    fetchData();
   }
 
   useEffect(()=>{
@@ -22,7 +29,19 @@ export const ProductPage = () => {
   return (
     <div>
         <div>
-            <ProductCard />
+          <div>
+            <h1 style={{textAlign:'center'}}>Products</h1>
+          </div>
+          <div className='productCards'>
+            {
+              products.map((el)=>{
+                return <div key={el.id} style={{textAlign:'center'}}>
+                  <ProductCard item={el} func={deleteItem} />
+                </div>
+              })
+            }
+          </div>
+            
         </div>
     </div>
   )
